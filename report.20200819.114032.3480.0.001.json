@@ -1,0 +1,307 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200819.114032.3480.0.001.json",
+    "dumpEventTime": "2020-08-19T11:40:32Z",
+    "dumpEventTimeStamp": "1597817432617",
+    "processId": 3480,
+    "cwd": "C:\\xampp\\htdocs\\citrusbug\\angular\\infiniscope-website",
+    "commandLine": [
+      "node",
+      "C:\\Users\\jigs\\AppData\\Roaming\\npm\\\\node_modules\\@angular\\cli\\bin\\ng",
+      "serve"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows 7 Ultimate Service Pack 1",
+    "osMachine": "i686",
+    "cpus": [
+      {
+        "model": "AMD E-350 Processor",
+        "speed": 1596,
+        "user": 10949382,
+        "nice": 0,
+        "sys": 4451722,
+        "idle": 33813185,
+        "irq": 33509
+      },
+      {
+        "model": "AMD E-350 Processor",
+        "speed": 1597,
+        "user": 11262476,
+        "nice": 0,
+        "sys": 4526197,
+        "idle": 33423931,
+        "irq": 340316
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "90:a4:de:bc:7a:f1",
+        "address": "2401:4900:1d27:b925:802a:602c:c3e1:eacf",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "90:a4:de:bc:7a:f1",
+        "address": "2401:4900:1d27:b925:20bb:a86e:794a:46c3",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "90:a4:de:bc:7a:f1",
+        "address": "fe80::802a:602c:c3e1:eacf",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "90:a4:de:bc:7a:f1",
+        "address": "192.168.43.140",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "jigs-PC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 476422144,
+    "totalCommittedMemory": 476422144,
+    "usedMemory": 461597948,
+    "availableMemory": 13283880,
+    "memoryLimit": 481296384,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 22612,
+        "used": 22612,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 6291456,
+        "committedMemory": 6291456,
+        "capacity": 3144048,
+        "used": 679792,
+        "available": 2464256
+      },
+      "old_space": {
+        "memorySize": 375226368,
+        "committedMemory": 375226368,
+        "capacity": 372450164,
+        "used": 369648828,
+        "available": 2801336
+      },
+      "code_space": {
+        "memorySize": 5406720,
+        "committedMemory": 5406720,
+        "capacity": 4809376,
+        "used": 4809376,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 4198400,
+        "committedMemory": 4198400,
+        "capacity": 1667360,
+        "used": 1667360,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 84455424,
+        "committedMemory": 84455424,
+        "capacity": 84262620,
+        "used": 84262620,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 581632,
+        "committedMemory": 581632,
+        "capacity": 507360,
+        "used": 507360,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 3144048,
+        "used": 0,
+        "available": 3144048
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 960.95,
+    "kernelCpuSeconds": 42.042,
+    "cpuConsumptionPercent": 24.4096,
+    "maxRss": 634236928,
+    "pageFaults": {
+      "IORequired": 1806605,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 9949,
+      "writes": 5
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\xampp\\htdocs\\citrusbug\\angular\\infiniscope-website",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMDAPPSDKROOT": "C:\\Program Files\\AMD APP\\",
+    "APPDATA": "C:\\Users\\jigs\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "JIGS-PC",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\jigs",
+    "LOCALAPPDATA": "C:\\Users\\jigs\\AppData\\Local",
+    "LOGONSERVER": "\\\\JIGS-PC",
+    "NUMBER_OF_PROCESSORS": "2",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\jigs\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs\\;C:\\PROGRAMDATA\\ORACLE\\JAVA\\JAVAPATH;C:\\PROGRAM FILES\\PC CONNECTIVITY SOLUTION\\;C:\\PROGRAM FILES\\AMD APP\\BIN\\X86;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\ATI TECHNOLOGIES\\ATI.ACE\\CORE-STATIC;C:\\PROGRAM FILES\\BROADCOM\\BROADCOM 802.11 NETWORK ADAPTER\\DRIVER;C:\\PROGRAM FILES\\COMMON FILES\\ADOBE\\AGL;C:\\XAMPP\\PHP;C:\\PROGRAMDATA\\COMPOSERSETUP\\BIN;C:\\PROGRAM FILES\\PUTTY\\;C:\\PROGRAM FILES\\GIT\\CMD;C:\\PROGRAM FILES\\MICROSOFT VS CODE\\BIN;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\jigs\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\jigs\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_IDENTIFIER": "x86 Family 20 Model 1 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "20",
+    "PROCESSOR_REVISION": "0100",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\jigs\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\jigs\\AppData\\Local\\Temp",
+    "USERDOMAIN": "jigs-PC",
+    "USERNAME": "jigs",
+    "USERPROFILE": "C:\\Users\\jigs",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\Windows",
+    "windows_tracing_flags": "3",
+    "windows_tracing_logfile": "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\kernel32.dll",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\system32\\dbghelp.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\system32\\USERENV.dll",
+    "C:\\Windows\\system32\\profapi.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\system32\\LPK.dll",
+    "C:\\Windows\\system32\\USP10.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\system32\\bcrypt.dll",
+    "C:\\Windows\\system32\\WINMM.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL",
+    "C:\\Windows\\system32\\powrprof.dll",
+    "C:\\Windows\\system32\\SETUPAPI.dll",
+    "C:\\Windows\\system32\\CFGMGR32.dll",
+    "C:\\Windows\\system32\\OLEAUT32.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "C:\\Windows\\system32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\wshtcpip.dll",
+    "C:\\Windows\\System32\\wship6.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\system32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\system32\\cryptbase.dll",
+    "C:\\Windows\\system32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "C:\\Windows\\system32\\apphelp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}

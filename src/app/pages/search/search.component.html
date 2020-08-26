@@ -1,0 +1,38 @@
+<main role="main" class="flex-shrink-0 middle-section search-page">
+	<div class="middle-inner">
+		<div class="search-column">
+			<app-search-form (onsubmit)="getSearchInput($event)"></app-search-form>
+			<section
+				class="featured-section login-featured-section seacrh-filter-pad"
+			>
+				<div class="search-div-bg"></div>
+				<div class="featured-inner">
+					<div class="container-fluid">
+						<div class="fixed-bottom-right">
+							<button class="btn btn-submit-lesson">
+								<span class="round-plus">+</span>
+								<span class="text-span">Submit Your Own Lesson</span>
+							</button>
+						</div>
+
+						<app-community></app-community>
+						<app-content-library></app-content-library>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div class="educator-mobile">
+			<div class="educator">
+				<p>Educatore Mode</p>
+				<div class="switch-slider">
+					<input type="checkbox" class="toggle" id="toggle-mobile" checked="" />
+					<label for="toggle-mobile">
+						<span class="on">On</span>
+						<span class="off">Off</span>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

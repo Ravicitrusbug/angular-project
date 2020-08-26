@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="698" height="168.759" viewBox="0 0 698 168.759">
+  <defs>
+    <filter id="Fill-1" x="0" y="3.141" width="33.703" height="127.929" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-2" x="30.625" y="37.689" width="88.668" height="93.38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-3" x="103.651" y="0" width="72.964" height="131.07" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-4" x="168.04" y="3.141" width="37.63" height="127.927" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-5" x="199.448" y="37.689" width="88.669" height="93.38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-6" x="280.327" y="3.141" width="37.63" height="127.927" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-7" x="307.81" y="37.689" width="75.319" height="94.95" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-8" x="526.095" y="37.689" width="92.595" height="131.07" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-9" x="608.546" y="37.689" width="89.454" height="94.95" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Fill-10" x="370.815" y="37.288" width="164.994" height="94.95" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="logo" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-1)">
+      <path id="Fill-1-2" data-name="Fill-1" d="M0,112.919H15.7V2.99H0Z" transform="translate(9 6.15)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-2)">
+      <path id="Fill-2-2" data-name="Fill-2" d="M34.366,34.1A31.977,31.977,0,0,1,56.508,25.46,34.025,34.025,0,0,1,83.363,38.5C88.074,44.462,90.586,52,90.586,64.721v36.12H75.667V63.935c0-9.422-1.728-13.819-4.4-17.117a19.469,19.469,0,0,0-15.232-7.223c-9.737,0-16.8,5.181-21.2,10.521V100.84H19.918V27.03H34.366V34.1" transform="translate(19.71 18.23)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-3)">
+      <path id="Fill-3-2" data-name="Fill-3" d="M119.238,15.709a24.1,24.1,0,0,0-5.5-.627c-4.241,0-8.795,1.885-11.307,5.181-2.042,2.671-2.828,6.439-2.828,13.192v6.751h22.771v13.35H99.607v60.46H84.688V53.557H67.414V40.206H84.688V33.925c0-9.892,1.415-16.018,4.713-20.729A28.912,28.912,0,0,1,113.584.947a34.308,34.308,0,0,1,8.793,1.1l-3.14,13.662" transform="translate(45.24 5.05)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-4)">
+      <path id="Fill-4-2" data-name="Fill-4" d="M111.647,112.917h14.919V39.108H111.647ZM119.028,2.99a9.852,9.852,0,0,1,9.894,9.894,9.72,9.72,0,0,1-9.894,9.736,9.588,9.588,0,0,1-9.736-9.736,9.721,9.721,0,0,1,9.736-9.894Z" transform="translate(67.75 6.15)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-5)">
+      <path id="Fill-5-2" data-name="Fill-5" d="M144.168,34.1A31.98,31.98,0,0,1,166.31,25.46,34.023,34.023,0,0,1,193.165,38.5c4.711,5.967,7.225,13.506,7.225,26.226v36.12H185.471V63.935c0-9.422-1.728-13.819-4.4-17.117a19.463,19.463,0,0,0-15.231-7.223c-9.737,0-16.8,5.181-21.2,10.521V100.84H129.72V27.03h14.448V34.1" transform="translate(78.73 18.23)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-6)">
+      <path id="Fill-6-2" data-name="Fill-6" d="M184.678,112.917H199.6V39.108H184.678ZM192.059,2.99a9.853,9.853,0,0,1,9.894,9.894,9.721,9.721,0,0,1-9.894,9.736,9.588,9.588,0,0,1-9.736-9.736,9.721,9.721,0,0,1,9.736-9.894Z" transform="translate(107 6.15)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-7)">
+      <path id="Fill-7-2" data-name="Fill-7" d="M207.892,81.211c6.91,5.338,14.448,8.166,21.83,8.166,6.438,0,12.877-3.455,12.877-9.265,0-8.481-12.25-8.952-23.086-12.565-8.95-2.983-16.959-8.636-16.959-19,0-15.861,14.133-23.086,27.325-23.086,10.835,0,18.687,3.455,24.5,8.167l-7.694,10.678a26.2,26.2,0,0,0-15.861-5.81c-7.225,0-13.349,3.455-13.349,9.265,0,5.025,5.81,6.753,13.191,8.638,11.622,2.984,26.854,8.166,26.854,23.4,0,13.978-13.034,22.614-27.482,22.614-11.777,0-21.671-3.612-29.837-10.208l7.694-10.992" transform="translate(116.61 18.23)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-8)">
+      <path id="Fill-8-2" data-name="Fill-8" d="M357.088,77.754a25.618,25.618,0,0,0,20.26,10.523,24.1,24.1,0,0,0,24.5-24.342c0-12.877-9.422-24.341-23.713-24.341a26.6,26.6,0,0,0-21.044,10.521V77.754Zm0,60.775H342.169V27.03h14.448v6.754A34.574,34.574,0,0,1,379.7,25.46a35.106,35.106,0,0,1,18.06,4.711,39.005,39.005,0,0,1,19,33.764A38.609,38.609,0,0,1,397.92,97.542a37.849,37.849,0,0,1-18.53,4.868,33.157,33.157,0,0,1-22.3-8.009V138.53Z" transform="translate(192.93 18.23)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-9)">
+      <path id="Fill-9-2" data-name="Fill-9" d="M411.5,54.513h40.2C449.5,45.091,441.023,38.5,432.228,38.5A21.45,21.45,0,0,0,411.5,54.513Zm-1.256,12.563a23.781,23.781,0,0,0,23.87,22.3c10.993,0,16.96-5.34,21.2-10.051l9.737,9.265c-5.5,7.066-16.018,13.819-31.093,13.819-21.515,0-38.162-16.332-38.162-38.475S410.87,25.46,431.756,25.46c20.574,0,35.492,16.647,35.492,38.475a27.068,27.068,0,0,1-.157,3.141Z" transform="translate(221.75 18.23)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Fill-10)">
+      <path id="Fill-10-2" data-name="Fill-10" d="M350.008,25.2c-15.926,0-28.916,8.782-34.783,22.067-.006.014-.016.02-.022.034-5.558,12.19-8.4,22.648-13.254,29.253-4.711,6.281-11.621,11.462-21.356,11.462-14.135,0-24.5-9.892-24.5-24.341,0-13.976,10.207-24.342,23.556-24.342,9.422,0,17.374,5.83,21.458,11.484l.009-.009c.1.132.183.257.277.386l6.693-13.584A38.983,38.983,0,0,0,279.651,25.2c-22.143,0-38.475,16.647-38.475,38.475s16.647,38.475,39.418,38.475c13.5,0,26.7-7.067,32.822-17.276,0,0,.723-1.121,2.268-3.778,3.584-6.45,7.442-19.985,13.562-30.669,4.923-8.593,10.946-11.412,20.763-11.336,13.663.106,23.241,10.958,23.241,24.462s-9.579,24.4-23.241,24.4c-.721,0-1.43-.008-2.128-.066l.008.021c-.028,0-.056,0-.083,0a23.363,23.363,0,0,1-5.132-1.024,34.093,34.093,0,0,1-15.661-9.74c-1.613,3.206-4.53,8.667-6.229,11.828a37.615,37.615,0,0,0,29.225,13.18c21.828,0,38.161-16.49,38.161-38.475S371.837,25.2,350.008,25.2" transform="translate(138.64 18.09)" fill="#ebebeb" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

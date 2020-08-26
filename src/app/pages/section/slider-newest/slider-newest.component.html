@@ -1,0 +1,87 @@
+<div class="row">
+	<div class="col-lg-12">
+		<div class="heading">
+			<h2>Newest</h2>
+		</div>
+	</div>
+</div>
+
+<div class="newest-slide">
+	<div class="row-10">
+		<owl-carousel-o [options]="featureOptions" (change)="getData($event)">
+			<ng-container *ngFor="let slide of slides; let i = index">
+				<ng-template carouselSlide>
+					<div
+						class="item"
+						id="owl-slide-1"
+						(click)="activeFlip(1)"
+						[ngClass]="active_slide == 1 ? 'active-item0 active-none0' : ''"
+					>
+						<!-- box -->
+						<div class="col-xl-12 col-lg-12 pad-10">
+							<div class="newest-box" [class.active0]="active_slide == 1">
+								<div class="heading">
+									<h3>Kingdom in Peril: Ep 1</h3>
+									<span><img src="assets/images/flip-left.svg" alt="" /></span>
+								</div>
+								<div class="img-box">
+									<img src="assets/images/newset.jpg" class="img-fuid" alt="" />
+									<a href="#" class="img-cornor">
+										<img src="assets/images/fliped-logo.png" alt="" />
+									</a>
+								</div>
+								<div class="content-box">
+									<p>
+										The Cretaceous�Paleogene (K�Pg) extinction event, which
+										occurred 66 mya, caused the mass extinction of nearly 75% of
+										the plant and animal species on Earth. This event is marked
+										by a thin layer of sediment which can be found throughout
+										the world in marine and terrestrial rocks. The boundary clay
+										shows high levels of iridium, which is rare on Earth but
+										abundant in asteroids.
+									</p>
+									<hr />
+									<div class="card-footer">
+										<ul>
+											<li>
+												<a href="#!"> <i class="far fa-clock"></i> 25min </a>
+											</li>
+
+											<li>
+												<a href="#!"> <i class="fas fa-mobile-alt"></i> No </a>
+											</li>
+											<li>
+												<a href="#!"> <i class="fas fa-globe"></i> En,Sp </a>
+											</li>
+										</ul>
+
+										<ul>
+											<li>
+												<a href="#!"> <i class="far fa-heart"></i> 40 </a>
+											</li>
+
+											<li>
+												<a href="#!">
+													<i class="fas fa-share-alt"></i>
+												</a>
+											</li>
+											<li>
+												<a href="#!" class="btn btn-launch">
+													Launch
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div></div>
+						</div>
+						<!-- box end -->
+					</div>
+				</ng-template>
+			</ng-container>
+		</owl-carousel-o>
+
+		<!-- owl end -->
+	</div>
+</div>
