@@ -12,22 +12,22 @@ describe('AppComponent', () => {
 
 	it('should create the app', () => {
 		const fixture = TestBed.createComponent(AppComponent);
-		const app = fixture.componentInstance;
+		const app = fixture.debugElement.componentInstance;
 		expect(app).toBeTruthy();
 	});
 
-	it(`should have as title 'infiniscope-website'`, () => {
+	it(`should have as title 'MysafetyAdult'`, () => {
 		const fixture = TestBed.createComponent(AppComponent);
-		const app = fixture.componentInstance;
-		expect(app.title).toEqual('infiniscope-website');
+		const app = fixture.debugElement.componentInstance;
+		expect(app.title).toEqual('MysafetyAdult');
 	});
 
 	it('should render title', () => {
 		const fixture = TestBed.createComponent(AppComponent);
 		fixture.detectChanges();
-		const compiled = fixture.nativeElement;
+		const compiled = fixture.debugElement.nativeElement;
 		expect(compiled.querySelector('.content span').textContent).toContain(
-			'infiniscope-website app is running!'
+			'MysafetyAdult app is running!'
 		);
 	});
 });

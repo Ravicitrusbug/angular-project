@@ -9,9 +9,6 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { HeaderComponent } from './section/header/header.component';
-import { FooterComponent } from './section/footer/footer.component';
-
 import { HomeComponent } from './pages/home/home.component';
 import { SearchComponent } from './pages/search/search.component';
 
@@ -25,12 +22,11 @@ import { ContentLibraryComponent } from './pages/section/content-library/content
 import { SwitchModeComponent } from './section/switch-mode/switch-mode.component';
 import { NotificationComponent } from './section/notification/notification.component';
 import { ProfileComponent } from './section/profile/profile.component';
+import { BaseComponent } from './base/base.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		HeaderComponent,
-		FooterComponent,
 		HomeComponent,
 		SearchComponent,
 		SliderFeaturedComponent,
@@ -42,7 +38,8 @@ import { ProfileComponent } from './section/profile/profile.component';
 		ContentLibraryComponent,
 		SwitchModeComponent,
 		NotificationComponent,
-		ProfileComponent
+		ProfileComponent,
+		BaseComponent
 	],
 	imports: [
 		HttpClientModule,
