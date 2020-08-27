@@ -583,8 +583,6 @@ body {
   justify-content: center;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
-  line-height: 30px;
-  font-size: 20px;
   border: 1px solid #1d61f6;
   font-size: 16px;
   min-height: 30px !important;
@@ -2661,7 +2659,6 @@ a {
     width: 100%;
   }
   .header .navbar .collapse1 .navbar-nav .nav-item .nav-link {
-    color: #666666;
     font-size: 16px;
     line-height: 26px;
     padding: 10px 12px 0 12px;
@@ -2694,7 +2691,6 @@ a {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    z-index: 2;
     display: none;
     z-index: 99999;
   }
@@ -2703,7 +2699,6 @@ a {
     min-height: 830px;
     width: 0;
     position: fixed;
-    z-index: 1;
     right: 0;
     top: 0;
     overflow-y: auto;
@@ -2806,7 +2801,6 @@ a {
   }
   .sidenav-new-menu .closebtn {
     position: relative;
-    top: 0;
     right: 0;
     font-size: 36px;
     margin-left: 0px;
@@ -3354,7 +3348,6 @@ a {
   }
   .sidenav-new-menu .closebtn {
     position: relative;
-    top: 0;
     right: 0;
     font-size: 36px;
     margin-left: 0px;
@@ -3453,7 +3446,6 @@ a {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    z-index: 2;
     display: none;
     z-index: 99999;
   }
@@ -3462,7 +3454,6 @@ a {
     min-height: 830px;
     width: 0;
     position: fixed;
-    z-index: 1;
     right: 0;
     top: 0;
     overflow-y: auto;
