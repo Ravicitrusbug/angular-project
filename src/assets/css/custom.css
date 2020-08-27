@@ -33,13 +33,50 @@
     width: 100%;
   }
 }
-
-@media (min-width: 1360px) {
+ 
+/*  @media (min-width: 1360px) {
   .container {
     max-width: 1360px;
     width: 100%;
   }
+}  */
+
+@media (min-width: 1300px) and (max-width: 1439px){
+    .container {
+        max-width: 1360px;
+        width: 100%;
+    }
+
+    .middle-section .hero-banner-section .item .slide-owl .hero-container-box {
+        padding: 8px 90px 0 200px !important;
+    }
+
+    .header .navbar .navbar-brand {
+        margin-left: 90px !important;
+    }
+
+    .sub-header .navbar-nav {
+        max-width: 930px !important;
+    }
+
+    .fixed-top.navbar a.navbar-brand{
+        margin-left: 0 !important;
+    }
 }
+
+/* @media (min-width: 1025px) {
+    .middle-section .hero-banner-section .item .slide-owl .banner-caption {
+        padding-left: 40px;
+    }
+    .sub-header .navbar-nav {
+        max-width: 940px;
+    }
+
+    .header .navbar .navbar-brand {
+        padding-left: 40px;
+    }
+} */
+
 
 /* Use the variables */
 body {
@@ -397,7 +434,6 @@ body {
 }
 
 .main-header {
-  width: 100%;
   background-color: rgba(34, 34, 34, 0.7);
   height: 60px;
   width: 100%;
@@ -512,7 +548,6 @@ body {
 
 .header .navbar .collapse1 {
   height: 100%;
-  height: 100%;
 }
 
 .header .navbar .collapse1 .navbar-nav .nav-item .nav-link {
@@ -533,10 +568,8 @@ body {
 }
 
 .header .navbar .collapse1 .navbar-nav .nav-btn .nav-link {
-  color: #ffffff;
   background-color: #1d61f6;
   background-image: linear-gradient(226deg, #3e9afb 0%, #1553da 100%);
-  min-height: 50px;
   text-align: center;
   max-width: 100%;
   display: -webkit-box;
@@ -585,7 +618,6 @@ body {
   background-color: transparent !important;
   border: 0 !important;
   -webkit-box-shadow: none;
-  box-shadow: none;
   outline: 0;
   padding: 0;
   position: relative;

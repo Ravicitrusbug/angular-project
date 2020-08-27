@@ -1,7 +1,5 @@
-import { Component, OnInit, ElementRef, Input, Renderer2 } from '@angular/core';
+import { Component, OnInit, ElementRef, Renderer2 } from '@angular/core';
 import { OwlOptions, SlidesOutputData } from 'ngx-owl-carousel-o';
-import { Lesson } from '../../../model/lesson.model';
-import { ApiService } from '../../../services/api.service';
 
 @Component({
 	selector: 'app-slider-newest',
@@ -9,12 +7,8 @@ import { ApiService } from '../../../services/api.service';
 	styleUrls: ['./slider-newest.component.scss']
 })
 export class SliderNewestComponent implements OnInit {
-	formload = false;
-	element: ElementRef;
-	renderer: Renderer2;
 	active_slide: number = 0;
 	slides: any[] = [1, 2, 3, 4, 5];
-	lessons: any[] = [1, 2, 3, 4, 5];
 
 	featureOptions: OwlOptions = {
 		loop: true,
@@ -55,34 +49,9 @@ export class SliderNewestComponent implements OnInit {
 	};
 
 	activeSlides: SlidesOutputData;
-	constructor(
-		element: ElementRef,
-		renderer: Renderer2,
-		public api: ApiService
-	) {
-		this.element = element;
-		this.renderer = renderer;
-	}
+	constructor() { }
 
-	getData(data: SlidesOutputData) {
-		this.activeSlides = data;
-	}
-
-	ngOnInit(): void {
-		this.getpageDetail('-');
-	}
-
-	getpageDetail(slug: any) {
-		this.api.getAuth('lessons?_sort=id&_limit=5', []).subscribe(
-			(result) => {
-				this.formload = false;
-			},
-			(error) => {
-				this.formload = false;
-			}
-		);
-	}
-
+	ngOnInit(): void { }
 	activeFlip(id: any) {
 		if (this.active_slide == id) {
 			this.active_slide = 0;

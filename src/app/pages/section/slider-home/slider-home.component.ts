@@ -19,6 +19,7 @@ export class SliderHomeComponent implements OnInit {
 		this.getpageDetail('home-page');
 	}
 
+	// Get slider data from api
 	getpageDetail(slug: any) {
 		this.api.getData(slug, []).subscribe(
 			(result) => {

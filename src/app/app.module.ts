@@ -52,4 +52,4 @@ import { BaseComponent } from './base/base.component';
 	providers: [],
 	bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

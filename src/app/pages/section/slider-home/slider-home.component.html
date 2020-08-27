@@ -5,12 +5,9 @@
 				<ng-container *ngFor="let slide of pageData.heroContent; let i = index">
 					<ng-template carouselSlide>
 						<div class="item">
-							<div
-								class="slide-owl"
-								style="background-image: url({{ environment.api_url }}/{{
+							<div class="slide-owl" style="background-image: url({{ environment.api_url }}/{{
 									slide.heroImage.url
-								}});"
-							>
+								}});">
 								<div class="banner-caption">
 									<div class="container">
 										<div class="row">

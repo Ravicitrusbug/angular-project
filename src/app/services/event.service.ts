@@ -9,6 +9,7 @@ export class EventService {
 	currentData = this.messageSource.asObservable();
 	constructor() {}
 
+	// Create event for sharing data between any components
 	globleEvent(obj: any) {
 		this.messageSource.next(obj);
 	}

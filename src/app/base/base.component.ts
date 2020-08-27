@@ -1,7 +1,6 @@
 import {
 	Component,
 	OnInit,
-	AfterViewInit,
 	ViewChild,
 	ElementRef,
 	HostListener
@@ -36,6 +35,7 @@ export class BaseComponent implements OnInit {
 		private router: Router,
 		private event: EventService
 	) {
+		// Receive event and data from another component
 		this.subscription = this.event.currentData.subscribe((data: any) => {
 			if (data.action == 'set_page') {
 				this.current_page = data.dataobj.page;
@@ -47,23 +47,20 @@ export class BaseComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.subscription = this.event.currentData.subscribe((data: any) => {
-			if (data.action == 'set_page') {
-				this.current_page = data.dataobj.page;
-			}
-		});
 		this.getpageDetail('home-page');
 	}
 
+	// Get home page data from api
 	getpageDetail(slug: any) {
 		this.api.getData(slug, []).subscribe(
 			(result) => {
 				this.pageData = result;
 			},
-			(error) => {}
+			(error) => { }
 		);
 	}
 
+	// Set logo sticky effect on scroll down page
 	@HostListener('window:scroll', ['$event']) handleScroll() {
 		const windowScroll = window.pageYOffset;
 		if (windowScroll >= this.elementPosition) {
@@ -75,6 +72,7 @@ export class BaseComponent implements OnInit {
 		}
 	}
 
+	// Mobile nav-bar show and hide
 	toggleNav() {
 		if (this.naveOpen) {
 			this.naveOpen = false;
@@ -83,6 +81,7 @@ export class BaseComponent implements OnInit {
 		}
 	}
 
+	// Mobile searchbar show or hide
 	toggleSearch() {
 		if (this.searchOpen) {
 			this.searchOpen = false;
@@ -91,16 +90,19 @@ export class BaseComponent implements OnInit {
 		}
 	}
 
+	// On search event
 	search() {
 		localStorage.setItem('input_search', this.input_search);
 		this.gotoRoute('search');
 	}
 
+	// Redirect to another route or page
 	gotoRoute(route: string) {
 		this.current_page = route;
 		this.router.navigate(['/' + route]);
 	}
 
+	// Unsubscribe event before leave component
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
 	}

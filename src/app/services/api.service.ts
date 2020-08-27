@@ -4,10 +4,9 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/throw';
 
-import { Headers, RequestOptions, Response, Http } from '@angular/http';
+import { RequestOptions, Response } from '@angular/http';
 import {
 	HttpClient,
-	HttpErrorResponse,
 	HttpHeaders
 } from '@angular/common/http';
 import { environment } from './../../environments/environment';

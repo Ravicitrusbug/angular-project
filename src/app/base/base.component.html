@@ -1,44 +1,20 @@
-<header
-	class="header"
-	[ngClass]="current_page == '/search' ? 'header-color2 seacrh-header' : ''"
->
+<header class="header" [ngClass]="current_page == '/search' ? 'header-color2 seacrh-header' : ''">
 	<!-- Fixed navbar -->
-	<nav
-		class="navbar navbar-expand-md navbar-dark"
-		#stickyMenu
-		[class.fixed-top]="sticky"
-	>
+	<nav class="navbar navbar-expand-md navbar-dark" #stickyMenu [class.fixed-top]="sticky">
 		<div class="main-header">
 			<div class="container-fluid">
 				<div class="row row-100 col-header">
-					<!-- <div class="col-lg-3 col-12 col-30">
-               
-              </div> -->
 					<div class="col-lg-12 col">
 						<div class="logo-heder">
 							<div class="container p-0">
-								<a
-									class="navbar-brand smoth-scroll show-in-web"
-									href="javascript:void(0)"
-									(click)="gotoRoute('/')"
-									*ngIf="pageData.logo"
-								>
-									<img
-										src="{{ environment.api_url }}{{ pageData.logo.url }}"
-										class="menu-logo"
-										alt=""
-									/>
+								<a class="navbar-brand smoth-scroll show-in-web" href="javascript:void(0)"
+									(click)="gotoRoute('/')" *ngIf="pageData.logo">
+									<img src="{{ environment.api_url }}{{ pageData.logo.url }}" class="menu-logo"
+										alt="" />
 								</a>
-								<a
-									class="navbar-brand smoth-scroll show-in-mobile"
-									href="javascript:void(0)"
-									(click)="gotoRoute('/')"
-								>
-									<img
-										src="assets/images/mobile-logo.png"
-										class="menu-logo"
-										alt=""
-									/>
+								<a class="navbar-brand smoth-scroll show-in-mobile" href="javascript:void(0)"
+									(click)="gotoRoute('/')">
+									<img src="assets/images/mobile-logo.png" class="menu-logo" alt="" />
 								</a>
 							</div>
 						</div>
@@ -47,12 +23,7 @@
 								<div class="educator">
 									<p>Educatore Mode</p>
 									<div class="switch-slider">
-										<input
-											type="checkbox"
-											class="toggle"
-											id="toggle"
-											checked=""
-										/>
+										<input type="checkbox" class="toggle" id="toggle" checked="" />
 										<label for="toggle">
 											<span class="on">On</span>
 											<span class="off">Off</span>
@@ -61,33 +32,17 @@
 								</div>
 								<div class="search-input">
 									<div class="form-group mb-0">
-										<input
-											type="text"
-											class="form-control serach-text"
-											[class.d-block]="searchOpen"
-											placeholder="Search for content, tags, authors ..."
-										/>
-										<button
-											type="button"
-											class="btn btn-search show-in-mobile"
-											(click)="toggleSearch()"
-										>
+										<input type="text" class="form-control serach-text" [class.d-block]="searchOpen"
+											placeholder="Search for content, tags, authors ..." />
+										<button type="button" class="btn btn-search show-in-mobile"
+											(click)="toggleSearch()">
 											<i class="fas fa-search"></i>
 										</button>
-										<button
-											type="button"
-											class="btn btn-search show-in-web"
-											(click)="search()"
-										>
+										<button type="button" class="btn btn-search show-in-web" (click)="search()">
 											<i class="fas fa-search"></i>
 										</button>
-										<a
-											href="javascript:void(0)"
-											class="d-none close-search"
-											(click)="toggleSearch()"
-											[class.d-flex]="searchOpen"
-											*ngIf="searchOpen"
-										>
+										<a href="javascript:void(0)" class="d-none close-search"
+											(click)="toggleSearch()" [class.d-flex]="searchOpen" *ngIf="searchOpen">
 											<i class="fa fa-times"></i>
 										</a>
 									</div>
@@ -109,49 +64,25 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<button class="navbar-toggler" (click)="toggleNav()" type="button">
-							<span class="navbar-toggler-icon"
-								><i class="fas fa-bars"></i
-							></span>
+							<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 						</button>
-						<div
-							class="collapse1 navbar-collapse sidenav-new-menu"
-							id="mySidenav2"
-							[class.width-menu]="naveOpen"
-						>
-							<a
-								href="javascript:void(0)"
-								class="closebtn"
-								(click)="toggleNav()"
-								*ngIf="naveOpen"
-							>
+						<div class="collapse1 navbar-collapse sidenav-new-menu" id="mySidenav2"
+							[class.width-menu]="naveOpen">
+							<a href="javascript:void(0)" class="closebtn" (click)="toggleNav()" *ngIf="naveOpen">
 								<span>
 									<span class="menu-bar-logo">
-										<i class="fas fa-bars"></i
-									></span>
-									<img
-										src="assets/images/mobile-logo-gray.png"
-										class="menu-mobile-logo"
-										alt=""
-									/>
+										<i class="fas fa-bars"></i></span>
+									<img src="assets/images/mobile-logo-gray.png" class="menu-mobile-logo" alt="" />
 								</span>
 								<span>
-									<!-- <img src="assets/images/close-menu.png" class="close-img" alt="" /> -->
 									<span class="menu-bar-close">
-										<i class="fas fa-times"></i
-									></span>
+										<i class="fas fa-times"></i></span>
 								</span>
 							</a>
 							<ul class="navbar-nav">
 								<li class="nav-item dropdown">
-									<a
-										class="nav-link smoth-scroll dropdown-toggle"
-										href="#"
-										type="button"
-										id=""
-										data-toggle="dropdown"
-										aria-haspopup="true"
-										aria-expanded="false"
-									>
+									<a class="nav-link smoth-scroll dropdown-toggle" href="#" type="button" id=""
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										About Us
 									</a>
 									<div class="dropdown-menu" aria-labelledby="">
@@ -162,15 +93,8 @@
 								</li>
 
 								<li class="nav-item dropdown">
-									<a
-										class="nav-link smoth-scroll dropdown-toggle"
-										href="#"
-										type="button"
-										id=""
-										data-toggle="dropdown"
-										aria-haspopup="true"
-										aria-expanded="false"
-									>
+									<a class="nav-link smoth-scroll dropdown-toggle" href="#" type="button" id=""
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Testimonials
 									</a>
 									<div class="dropdown-menu" aria-labelledby="">
@@ -181,15 +105,8 @@
 								</li>
 
 								<li class="nav-item dropdown">
-									<a
-										class="nav-link smoth-scroll dropdown-toggle"
-										href="#"
-										type="button"
-										id=""
-										data-toggle="dropdown"
-										aria-haspopup="true"
-										aria-expanded="false"
-									>
+									<a class="nav-link smoth-scroll dropdown-toggle" href="#" type="button" id=""
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Educator PD
 									</a>
 									<div class="dropdown-menu" aria-labelledby="">
@@ -200,15 +117,8 @@
 								</li>
 
 								<li class="nav-item dropdown">
-									<a
-										class="nav-link smoth-scroll dropdown-toggle"
-										href="#"
-										type="button"
-										id=""
-										data-toggle="dropdown"
-										aria-haspopup="true"
-										aria-expanded="false"
-									>
+									<a class="nav-link smoth-scroll dropdown-toggle" href="#" type="button" id=""
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Advisory
 									</a>
 									<div class="dropdown-menu" aria-labelledby="">
@@ -219,15 +129,8 @@
 								</li>
 
 								<li class="nav-item dropdown">
-									<a
-										class="nav-link smoth-scroll dropdown-toggle"
-										href="#"
-										type="button"
-										id=""
-										data-toggle="dropdown"
-										aria-haspopup="true"
-										aria-expanded="false"
-									>
+									<a class="nav-link smoth-scroll dropdown-toggle" href="#" type="button" id=""
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Media
 									</a>
 									<div class="dropdown-menu" aria-labelledby="">
@@ -240,11 +143,7 @@
 						</div>
 
 						<!-- layer modile and ipad menu -->
-						<div
-							id="cd-shadow-layer"
-							onclick="closeNav2()"
-							style="display: none;"
-						></div>
+						<div id="cd-shadow-layer" onclick="closeNav2()" style="display: none;"></div>
 						<!-- laeyer end -->
 					</div>
 				</div>

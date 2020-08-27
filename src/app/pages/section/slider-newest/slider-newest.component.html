@@ -8,7 +8,7 @@
 
 <div class="newest-slide">
 	<div class="row-10">
-		<owl-carousel-o [options]="featureOptions" (change)="getData($event)">
+		<owl-carousel-o [options]="featureOptions">
 			<ng-container *ngFor="let slide of slides; let i = index">
 				<ng-template carouselSlide>
 					<div
