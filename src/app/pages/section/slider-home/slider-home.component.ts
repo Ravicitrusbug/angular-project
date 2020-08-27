@@ -13,7 +13,7 @@ export class SliderHomeComponent implements OnInit {
 	environment: any = environment;
 	customOptions: OwlOptions = null;
 
-	constructor(public api: ApiService) {}
+	constructor(public api: ApiService) { }
 
 	ngOnInit(): void {
 		this.getpageDetail('home-page');
@@ -26,7 +26,7 @@ export class SliderHomeComponent implements OnInit {
 				this.pageData = result;
 				this.loadHeroSlider();
 			},
-			(error) => {}
+			(error) => { }
 		);
 	}
 

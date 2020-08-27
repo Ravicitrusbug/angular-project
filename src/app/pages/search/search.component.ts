@@ -28,7 +28,7 @@ export class SearchComponent implements OnInit {
 		this.input_search = localStorage.getItem('input_search');
 	}
 
-	ngOnInit(): void {}
+	ngOnInit(): void { }
 
-	getSearchInput(data: any) {}
+	getSearchInput(data: any) { }
 }

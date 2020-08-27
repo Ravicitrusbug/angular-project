@@ -7,7 +7,7 @@ import { BehaviorSubject } from 'rxjs';
 export class EventService {
 	private messageSource = new BehaviorSubject({ action: '', dataob: [] });
 	currentData = this.messageSource.asObservable();
-	constructor() {}
+	constructor() { }
 
 	// Create event for sharing data between any components
 	globleEvent(obj: any) {

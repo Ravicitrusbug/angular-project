@@ -33,7 +33,7 @@
     width: 100%;
   }
 }
- 
+
 /*  @media (min-width: 1360px) {
   .container {
     max-width: 1360px;
@@ -41,27 +41,27 @@
   }
 }  */
 
-@media (min-width: 1300px) and (max-width: 1439px){
-    .container {
-        max-width: 1360px;
-        width: 100%;
-    }
+@media (min-width: 1300px) and (max-width: 1439px) {
+  .container {
+    max-width: 1360px;
+    width: 100%;
+  }
 
-    .middle-section .hero-banner-section .item .slide-owl .hero-container-box {
-        padding: 8px 90px 0 200px !important;
-    }
+  .middle-section .hero-banner-section .item .slide-owl .hero-container-box {
+    padding: 8px 90px 0 200px !important;
+  }
 
-    .header .navbar .navbar-brand {
-        margin-left: 90px !important;
-    }
+  .header .navbar .navbar-brand {
+    margin-left: 90px !important;
+  }
 
-    .sub-header .navbar-nav {
-        max-width: 930px !important;
-    }
+  .sub-header .navbar-nav {
+    max-width: 930px !important;
+  }
 
-    .fixed-top.navbar a.navbar-brand{
-        margin-left: 0 !important;
-    }
+  .fixed-top.navbar a.navbar-brand {
+    margin-left: 0 !important;
+  }
 }
 
 /* @media (min-width: 1025px) {
@@ -76,7 +76,6 @@
         padding-left: 40px;
     }
 } */
-
 
 /* Use the variables */
 body {
@@ -1943,7 +1942,7 @@ a {
 .middle-section .flipbox .flipedbox .flipedbox-body .fliped-topic .topic-list li .tag-add::after {
   content: "\f055";
   position: absolute;
-  font-family: Font Awesome\5 Free !important;
+  font-family: Font awesome\5 Free !important;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
@@ -2297,7 +2296,7 @@ a {
 .search-page .search-filter .mostpopular-div .tag-list .tag::after {
   content: "\f056";
   position: absolute;
-  font-family: Font Awesome\5 Free !important;
+  font-family: Font awesome\5 Free !important;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
@@ -2319,7 +2318,7 @@ a {
 .search-page .search-filter .mostpopular-div .tag-list .active::after {
   content: "\f055" !important;
   position: absolute;
-  font-family: Font Awesome\5 Free !important;
+  font-family: Font awesome\5 Free !important;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;

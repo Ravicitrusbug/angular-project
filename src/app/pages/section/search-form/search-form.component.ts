@@ -7,9 +7,9 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class SearchFormComponent implements OnInit {
 	@Output() onsubmit: EventEmitter<any> = new EventEmitter<any>();
-	constructor() {}
+	constructor() { }
 
-	ngOnInit(): void {}
+	ngOnInit(): void { }
 
 	submit() {
 		this.onsubmit.emit({ id: 1 });
